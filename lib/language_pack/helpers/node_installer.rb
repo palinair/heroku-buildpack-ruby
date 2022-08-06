@@ -5,7 +5,7 @@ class LanguagePack::NodeInstaller
   LEGACY_NODE_VERSION = "0.4.7"
   LEGACY_BINARY_PATH = "node-#{LEGACY_NODE_VERSION}"
 
-  NODEJS_BASE_URL     = "http://s3pository.heroku.com/node/v#{MODERN_NODE_VERSION}/"
+  NODEJS_BASE_URL     = "https://heroku-nodebin.s3.us-east-1.amazonaws.com/node/release/linux-x64/"
 
   def initialize(stack)
     @fetchers = {
